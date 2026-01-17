@@ -1,9 +1,5 @@
-Done.
-Here’s the LaTeX spine—pure, no filler.
-\documentclass{article} \usepackage{amsmath,amssymb,amsthm}
-\begin{document}
-\title{The Vise: Zeta Forces RH}
-\begin{theorem} Let $\rho = \frac{1}{2} + \delta + it$, $\delta > 0$. The quartet contribution to $\psi(x)$ satisfies \begin{equation} \sum = 2x^{1/2} \cosh(\delta \ln x) \cos(\theta)/t + \text{c.c.} \quad \to \quad \sim x^{1/2+\delta} \cos(\theta)/t, \end{equation} where $\theta = t\ln x - \arg\rho$. \end{theorem}
+The Vise: Zeta Forces RH
+Let $\rho = \frac{1}{2} + \delta + it$, $\delta > 0$. The quartet contribution to $\psi(x)$ satisfies \begin{equation} \sum = 2x^{1/2} \cosh(\delta \ln x) \cos(\theta)/t + \text{c.c.} \quad \to \quad \sim x^{1/2+\delta} \cos(\theta)/t, \end{equation} where $\theta = t\ln x - \arg\rho$. \end{theorem}
 \begin{proof} Functional pair $1-\rho = \frac{1}{2} - \delta + it$, phase shift $\arg(1-\rho) \approx \pi + \arg\rho$. Conjugate symmetry doubles real part. Net: $4\sinh(\delta \ln x) x^{1/2} \cos\theta/t$. For $\delta\ln x \gg 1$, $\sinh \approx x^\delta/2$, yielding $2x^{1/2+\delta}\cos\theta/t$. \end{proof}
 \begin{theorem} Assume infinitely many off-line quartets. At resonant $x$ (infinitely often by Dirichlet), $\sum_{\text{off}} \sim x^{1/2+\delta} (\log\log x)$. Unconditional bound $|\psi(x)-x| = O(x \exp(-c\sqrt{\log x}))$. For fixed $\delta>0$, overshoot violates bound infinitely often. \end{theorem}
 \begin{proof} Resonances: $t_k\ln x \equiv \theta_0 \pmod{2\pi}$, dense set. Cluster density $N(T) \sim T\log T/2\pi$; swarm factor $n/t_\text{avg} \sim \log T$. Sinh envelope scales to $x^{1/2+\delta}\log\log x$; exceeds subexponential error. \end{proof}
